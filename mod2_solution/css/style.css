@@ -2,13 +2,19 @@
 * {
   box-sizing: border-box;
 }
+body  {
+  font-size: 15px;
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
+
 h1 {
   margin-bottom: 15px;
   text-align: center;
+  font-size: 175%;
 }
 
 section{
-  height: 240px;
+  height: 250px;
   border: 1px solid black;
   position: relative;
   background-color: grey;
@@ -23,11 +29,12 @@ h2 {
   width: 35%;
   height: 35px;
   text-align: center;
+  font-size: 125%;
 }
 
 p {
   position: relative;
-  top: 50px;
+  top: 20px;
   padding: 10px;
   /*border: 1px solid black;
   background-color: #A52A2A;
